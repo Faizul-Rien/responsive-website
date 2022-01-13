@@ -42,6 +42,7 @@ header{
     margin-top: 20px;
     margin-left: 450px;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 .about{
     list-style: none;
@@ -52,6 +53,7 @@ header{
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 .works{
     list-style: none;
@@ -63,6 +65,7 @@ header{
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 10px;
+    font-size: 14px;
 }
 nav > ul{
     display: flex;
@@ -73,10 +76,11 @@ nav > ul{
 }
 
 .first-container{
-    border: 1px solid black;
     margin-left: 200px;
     margin-right: 200px;
     background-color: white;
+    border-radius: 10px;
+
 }
 .players{
     display: grid;
@@ -92,15 +96,16 @@ nav > ul{
 }
 .top-players{
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     color: #562EFF;
+    padding-top: 30px;
 
 }
 .player{
     display: flex;
     align-items: center;
     margin-right: 20px;
-    font-size: 14px;
+    font-size: 12px;
     width: 250px;
     margin-bottom: 20px;
 }
@@ -137,20 +142,86 @@ hr{
 
 .name{
     color: blueviolet;
+    font-size: 14px;
 }
 
 .subject{
     width: 185px;
     height: 60px;
+    font-size: 16px;
+    padding-top: 10px;
  
 }.blog p{
     color:grey;
+    font-size: 14px;
 }
 
 .second-container{
-    border: 1px solid black;
     margin-left: 200px;
     margin-right: 200px;
     background-color: white;
     margin-top: 50px;
+    border-radius: 10px;
+}
+.courses{
+    display: flex;
+}
+.course img{
+    width: 220px;
+    height: 100px;
+}
+.course{
+    width: 250px;
+    height: 270px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.latest-courses{
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #562EFF;
+    padding-top: 30px;
+}
+.author{
+    color: tomato;
+    font-size: 12px;
+}
+
+.course-title{
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+}
+ .fa-star{
+    color: gold;
+    font-size: 11px;
+}
+ .far.fa-star{
+    color: grey;
+}
+.ratings{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 220px;
+    height: 30px;
+}
+
+.point{
+    font-size: 11px;
+}
+.duration{
+    font-size: 11px;
+    color: #FF4A60;
+    background-color:wheat;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+}
+.star{
+    padding-bottom: 4px;
 }
